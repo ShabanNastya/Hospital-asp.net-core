@@ -1,7 +1,10 @@
 ﻿body{
     padding-top: 70px;
     background-image: url('/images/pattern.png');
-    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .navbar-default {
