@@ -37,8 +37,10 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
           <e p="DoctorController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
+          <e p="UsersController.cs" t="Include" />
         </e>
         <e p="Hospital.csproj" t="IncludeRecursive" />
         <e p="images" t="Include" />
@@ -47,11 +49,13 @@
           <e p="IDoctorRepository.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="AppDbContext.cs" t="Include" />
           <e p="Category.cs" t="Include" />
           <e p="CategoryRepository.cs" t="Include" />
           <e p="Doctor.cs" t="Include" />
           <e p="DoctorRepository.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -67,22 +71,34 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="ViewModels" t="Include">
+          <e p="CreateUserViewModel.cs" t="Include" />
           <e p="DoctorListViewModel.cs" t="Include" />
+          <e p="EditUserViewModel.cs" t="Include" />
+          <e p="LoginViewModel.cs" t="Include" />
+          <e p="RegisterViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="Login.cshtml" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+          </e>
           <e p="Doctor" t="Include">
             <e p="List.cshtml" t="Include" />
           </e>
           <e p="Home" t="Include">
-            <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
             <e p="Error.cshtml" t="Include" />
+          </e>
+          <e p="Users" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Edit.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
           </e>
         </e>
         <e p="wwwroot" t="Include">

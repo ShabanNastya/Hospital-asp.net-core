@@ -7,21 +7,15 @@ namespace Hospital.Models
 {
     public class CategoryRepository : ICategoryRepository
     {
-        public IEnumerable<Category> GetAllCategories => new List<Category>
+        private readonly AppDbContext _appDbContext;
+
+        public CategoryRepository(AppDbContext appDbContext)
         {
-            new Category
-            {
-                CategoryId = 1, CategoryName = "Therapist"
-            },
-            new Category
-            {
-                CategoryId = 2, CategoryName = "Dentist"
-            },
-            new Category
-            {
-                CategoryId = 3, CategoryName = "Pediatrician"
-            }
-        };
+            _appDbContext = appDbContext;
+        }
+
+        public IEnumerable<Category> GetAllCategories => _appDbContext.Categories;
+        
     }
 
 }
