@@ -8,5 +8,8 @@ namespace Hospital.Interfaces
         IEnumerable<Doctor> GetAllDoctor();
             //IEnumerable<Doctor> GetDoctorOnSale { get; set; }
         Doctor GetDoctorById(int doctorId);
+
+        Doctor Add(Doctor doctor);
+
     }
 }

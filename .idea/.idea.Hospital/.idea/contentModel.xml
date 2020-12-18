@@ -41,6 +41,7 @@
           <e p="AdministrationController.cs" t="Include" />
           <e p="DescriptionController.cs" t="Include" />
           <e p="DoctorController.cs" t="Include" />
+          <e p="ErrorController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />
         </e>
@@ -78,6 +79,8 @@
           <e p="ChangePasswordViewModel.cs" t="Include" />
           <e p="CreateRoleViewModel.cs" t="Include" />
           <e p="CreateUserViewModel.cs" t="Include" />
+          <e p="DoctorCreateViewModel.cs" t="Include" />
+          <e p="DoctorEditViewModel.cs" t="Include" />
           <e p="DoctorListViewModel.cs" t="Include" />
           <e p="EditUserViewModel.cs" t="Include" />
           <e p="HomeDetailsViewModel.cs" t="Include" />
@@ -101,6 +104,7 @@
           <e p="Home" t="Include">
             <e p="Create.cshtml" t="Include" />
             <e p="Details.cshtml" t="Include" />
+            <e p="DoctorNotFound.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
           </e>
@@ -108,6 +112,7 @@
             <e p="_Layout.cshtml" t="Include" />
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
             <e p="Error.cshtml" t="Include" />
+            <e p="NotFound.cshtml" t="Include" />
           </e>
           <e p="Users" t="Include">
             <e p="ChangePassword.cshtml" t="Include" />
@@ -130,6 +135,7 @@
             <e p="doctor3.jpg" t="Include" />
             <e p="doctor4.jpg" t="Include" />
             <e p="doctorlogo.png" t="Include" />
+            <e p="errorpage.jpg" t="Include" />
             <e p="noimage.png" t="Include" />
             <e p="pattern.png" t="Include" />
             <e p="pattern3.jpg" t="Include" />

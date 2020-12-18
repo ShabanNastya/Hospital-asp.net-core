@@ -1,0 +1,21 @@
+﻿@model int
+
+@{
+    ViewBag.Title = "404 Error";
+}
+
+<div class="alert alert-danger mt-1 mb-1">
+    <h4>404 Not Found Error :</h4>
+    <hr />
+    <h5>
+        Doctor with ID = @Model cannot be found
+    </h5>
+   
+</div>
+ <img src="~/images/errorpage.jpg" height="300" width="500"/>
+<div>
+    
+</div>
+
+<a asp-controller="home" asp-action="index" class="btn btn-outline-success"
+   style="width:auto">Нажмите сюда, чтобы вернуть ко всему списку врачей</a>

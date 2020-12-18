@@ -102,3 +102,5 @@ C:\Users\Настя\RiderProjects\Hospital\Hospital\obj\Debug\netcoreapp3.1\Razo
 C:\Users\Настя\RiderProjects\Hospital\Hospital\obj\Debug\netcoreapp3.1\Razor\Views\Administration\ListRoles.cshtml.g.cs
 C:\Users\Настя\RiderProjects\Hospital\Hospital\obj\Debug\netcoreapp3.1\Razor\Views\Home\Details.cshtml.g.cs
 C:\Users\Настя\RiderProjects\Hospital\Hospital\obj\Debug\netcoreapp3.1\Razor\Views\Home\Create.cshtml.g.cs
+C:\Users\Настя\RiderProjects\Hospital\Hospital\obj\Debug\netcoreapp3.1\Razor\Views\Home\DoctorNotFound.cshtml.g.cs
+C:\Users\Настя\RiderProjects\Hospital\Hospital\obj\Debug\netcoreapp3.1\Razor\Views\Shared\NotFound.cshtml.g.cs

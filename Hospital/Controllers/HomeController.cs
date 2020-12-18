@@ -31,21 +31,38 @@ namespace Hospital.Controllers
             return View(model);
         }
 
-        [HttpGet]
-        [HttpPost]
-        public IActionResult Details(int id)
+
+        public ViewResult Details(int? id)
         {
+            Doctor doctor = _doctorRepository.GetDoctorById(id.Value);
+
+            if (doctor == null)
+            {
+                Response.StatusCode = 404;
+                return View("DoctorNotFound", id.Value);
+            }
+            
             HomeDetailsViewModel homeDetailsViewModel = new HomeDetailsViewModel()
             {
-                Doctor = _doctorRepository.GetDoctorById(id),
+                Doctor = _doctorRepository.GetDoctorById(id ?? 1),
                 PageTitle = "Doctor Details"
             };
+
             return View(homeDetailsViewModel);
         }
 
+        [HttpGet]
         public ViewResult Create()
         {
             return View();
+        }
+        
+        
+        [HttpPost]
+        public RedirectToActionResult Create(Doctor doctor)
+        {
+            Doctor newDoctor =   _doctorRepository.Add(doctor);
+            return RedirectToAction("Details", new {id = newDoctor.DoctorId});
         }
         
         public IActionResult Privacy()

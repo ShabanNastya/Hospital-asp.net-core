@@ -13,13 +13,21 @@ namespace Hospital.Models
         {
             _doctorList = new List<Doctor>()
             {
-                new Doctor() { DoctorId = 1, Name = "Mary", Category = Categ.Dentist, Email = "mary@pragimtech.com" },
-                new Doctor() { DoctorId = 2, Name = "John", Category = Categ.Therapist, Email = "john@pragimtech.com" },
-                new Doctor() { DoctorId = 3, Name = "Sam", Category = Categ.Dentist, Email = "sam@pragimtech.com" },
+                new Doctor() { DoctorId = 1, Name = "Мария", Category = Categ.Dentist, Email = "mary@pragtech.com" },
+                new Doctor() { DoctorId = 2, Name = "Джон", Category = Categ.Therapist, Email = "john@pragtech.com" },
+                new Doctor() { DoctorId = 3, Name = "Анна", Category = Categ.Therapist, Email = "annana@pragtech.com" },
+                new Doctor() { DoctorId = 4, Name = "Пётр", Category = Categ.Pediatrician, Email = "petia@pragtech.com" },
             };
         }
 
-
+        public Doctor Add(Doctor doctor)
+        {
+            doctor.DoctorId = _doctorList.Max(e => e.DoctorId) + 1;
+            _doctorList.Add(doctor);
+            return doctor;
+        }
+        
+        
         public IEnumerable<Doctor> GetAllDoctor()
         {
             return _doctorList;
