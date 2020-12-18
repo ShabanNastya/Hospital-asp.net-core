@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Doctor>
+
+@{
+    ViewBag.Title = "Doctor List";
+}
+<div class="card-deck">
+    @foreach (var doctor in Model)
+    {
+        <div class="card m-3">
+            <div class="card-header">
+                <h3>@doctor.Name</h3>
+            </div>
+            <img class="card-img-top" src="~/images/noimage.png" />
+            <h6>@doctor.Surname</h6>
+            <h6>@doctor.Email</h6>
+            <h7>@doctor.Description</h7>
+            <div class="card-footer text-center">
+                <a href="#" class="btn btn-primary m-1">Edit</a>
+                <a href="#" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+    }
+</div>

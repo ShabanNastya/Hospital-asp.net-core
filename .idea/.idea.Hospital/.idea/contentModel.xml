@@ -38,6 +38,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="AccountController.cs" t="Include" />
+          <e p="AdministrationController.cs" t="Include" />
+          <e p="DescriptionController.cs" t="Include" />
           <e p="DoctorController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />
@@ -50,11 +52,13 @@
         </e>
         <e p="Models" t="Include">
           <e p="AppDbContext.cs" t="Include" />
+          <e p="Categ.cs" t="Include" />
           <e p="Category.cs" t="Include" />
           <e p="CategoryRepository.cs" t="Include" />
           <e p="Doctor.cs" t="Include" />
           <e p="DoctorRepository.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
+          <e p="IdentityRole.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -71,9 +75,12 @@
         </e>
         <e p="Startup.cs" t="Include" />
         <e p="ViewModels" t="Include">
+          <e p="ChangePasswordViewModel.cs" t="Include" />
+          <e p="CreateRoleViewModel.cs" t="Include" />
           <e p="CreateUserViewModel.cs" t="Include" />
           <e p="DoctorListViewModel.cs" t="Include" />
           <e p="EditUserViewModel.cs" t="Include" />
+          <e p="HomeDetailsViewModel.cs" t="Include" />
           <e p="LoginViewModel.cs" t="Include" />
           <e p="RegisterViewModel.cs" t="Include" />
         </e>
@@ -84,10 +91,17 @@
             <e p="Login.cshtml" t="Include" />
             <e p="Register.cshtml" t="Include" />
           </e>
+          <e p="Administration" t="Include">
+            <e p="CreateRole.cshtml" t="Include" />
+            <e p="ListRoles.cshtml" t="Include" />
+          </e>
           <e p="Doctor" t="Include">
             <e p="List.cshtml" t="Include" />
           </e>
           <e p="Home" t="Include">
+            <e p="Create.cshtml" t="Include" />
+            <e p="Details.cshtml" t="Include" />
+            <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
@@ -96,6 +110,7 @@
             <e p="Error.cshtml" t="Include" />
           </e>
           <e p="Users" t="Include">
+            <e p="ChangePassword.cshtml" t="Include" />
             <e p="Create.cshtml" t="Include" />
             <e p="Edit.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
@@ -115,6 +130,7 @@
             <e p="doctor3.jpg" t="Include" />
             <e p="doctor4.jpg" t="Include" />
             <e p="doctorlogo.png" t="Include" />
+            <e p="noimage.png" t="Include" />
             <e p="pattern.png" t="Include" />
             <e p="pattern3.jpg" t="Include" />
             <e p="thumbnails" t="Include">

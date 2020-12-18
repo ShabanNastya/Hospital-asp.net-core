@@ -23,7 +23,7 @@ namespace Hospital.Controllers
             //return View(_doctorRepository.GetAllDoctor);
             
             var doctorListViewModel = new DoctorListViewModel();
-            doctorListViewModel.Doctors = _doctorRepository.GetAllDoctor;
+            //doctorListViewModel.Doctors = _doctorRepository.GetAllDoctor;
             doctorListViewModel.CurrentCategory = "BestDoctor";
             return View(doctorListViewModel);
         }

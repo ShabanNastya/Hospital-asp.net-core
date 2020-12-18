@@ -34,7 +34,7 @@ using Hospital.ViewModels;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e07a80ad58f51c06b80de6481b7d9160f5a8fd7f", @"/Views/Doctor/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"14c394123b94910a168da1f33b2fac6426e09962", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"076991dabefa97748691772bdf45b487097a01bd", @"/Views/_ViewImports.cshtml")]
     public class Views_Doctor_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DoctorListViewModel>
     {
         #line hidden

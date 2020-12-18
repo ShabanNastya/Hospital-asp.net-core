@@ -5,8 +5,8 @@ namespace Hospital.Interfaces
 {
     public interface IDoctorRepository
     {
-        IEnumerable<Doctor> GetAllDoctor{ get; }
-        //IEnumerable<Doctor> GetDoctorOnSale { get; set; }
+        IEnumerable<Doctor> GetAllDoctor();
+            //IEnumerable<Doctor> GetDoctorOnSale { get; set; }
         Doctor GetDoctorById(int doctorId);
     }
 }

@@ -7,24 +7,28 @@ namespace Hospital.Models
 {
     public class DoctorRepository :IDoctorRepository
     {
-        private readonly AppDbContext _appDbContext;
+        private List<Doctor> _doctorList;
 
-        public DoctorRepository(AppDbContext appDbContext)
+        public DoctorRepository()
         {
-            _appDbContext = appDbContext;
-        }
-        public IEnumerable<Doctor> GetAllDoctor
-        {
-            get
+            _doctorList = new List<Doctor>()
             {
-                return _appDbContext.Doctors.Include(c => c.Category);
-            }
+                new Doctor() { DoctorId = 1, Name = "Mary", Category = Categ.Dentist, Email = "mary@pragimtech.com" },
+                new Doctor() { DoctorId = 2, Name = "John", Category = Categ.Therapist, Email = "john@pragimtech.com" },
+                new Doctor() { DoctorId = 3, Name = "Sam", Category = Categ.Dentist, Email = "sam@pragimtech.com" },
+            };
         }
-        
-        
+
+
+        public IEnumerable<Doctor> GetAllDoctor()
+        {
+            return _doctorList;
+        }
+
         public Doctor GetDoctorById(int doctorId)
         {
-            return _appDbContext.Doctors.FirstOrDefault(c => c.DoctorId == doctorId);
+            return this._doctorList.FirstOrDefault(e => e.DoctorId == doctorId);
+            //return _appDbContext.Doctors.FirstOrDefault(c => c.DoctorId == doctorId);
         }
     }
 }

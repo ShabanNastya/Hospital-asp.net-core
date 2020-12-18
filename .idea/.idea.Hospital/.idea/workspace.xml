@@ -33,26 +33,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hospital/Models/Medicines.cs" />
-        <option value="$PROJECT_DIR$/Hospital/Interfaces/MedicinesRepository.cs" />
-        <option value="$PROJECT_DIR$/Hospital/Interfaces/IMedicinesRepository.cs" />
-        <option value="$PROJECT_DIR$/Hospital/Mocks/MockCategoryRepository.cs" />
-        <option value="$PROJECT_DIR$/Hospital/Mocks/MockDoctorRepository.cs" />
-        <option value="$PROJECT_DIR$/Hospital/Views/Li.cs" />
-        <option value="$PROJECT_DIR$/Hospital/Views/li.razor" />
-        <option value="$PROJECT_DIR$/Hospital/Views/List.cshtml" />
-        <option value="$PROJECT_DIR$/Hospital/Pages/Doctor/List.cshtml" />
-        <option value="$PROJECT_DIR$/Hospital/Views/_ViewImports.cshtml" />
-        <option value="$PROJECT_DIR$/Hospital/ViewModels/DoctorListViewModel.cs" />
         <option value="$PROJECT_DIR$/Hospital/bower.json" />
-        <option value="$PROJECT_DIR$/Hospital/Models/Doctor.cs" />
         <option value="$PROJECT_DIR$/Hospital/Models/Category.cs" />
-        <option value="$PROJECT_DIR$/Hospital/Interfaces/IDoctorRepository.cs" />
-        <option value="$PROJECT_DIR$/Hospital/Controllers/DoctorController.cs" />
         <option value="$PROJECT_DIR$/Hospital/Interfaces/ICategoryRepository.cs" />
-        <option value="$PROJECT_DIR$/Hospital/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Hospital/Views/Doctor/List.cshtml" />
-        <option value="$PROJECT_DIR$/Hospital/Models/DoctorRepository.cs" />
         <option value="$PROJECT_DIR$/Hospital/Models/ApplicationContext.cs" />
         <option value="$PROJECT_DIR$/Hospital/ViewModels/RegisterViewModel.cs" />
         <option value="$PROJECT_DIR$/Hospital/Controllers/AccountControllers.cs" />
@@ -69,12 +53,37 @@
         <option value="$PROJECT_DIR$/Hospital/Models/AppDbContext.cs" />
         <option value="$PROJECT_DIR$/Hospital/ViewModels/CreateUserViewModel.cs" />
         <option value="$PROJECT_DIR$/Hospital/ViewModels/EditUserViewModel.cs" />
-        <option value="$PROJECT_DIR$/Hospital/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Hospital/Views/Users/Create.cshtml" />
         <option value="$PROJECT_DIR$/Hospital/Views/Users/Edit.cshtml" />
-        <option value="$PROJECT_DIR$/Hospital/Controllers/UsersController.cs" />
         <option value="$PROJECT_DIR$/Hospital/wwwroot/content/site.css" />
+        <option value="$PROJECT_DIR$/Hospital/ViewModels/ChangePasswordViewModel.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Users/ChangePassword.cshtml" />
         <option value="$PROJECT_DIR$/Hospital/Views/Users/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/ViewModels/ChangeRoleViewModel.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Controllers/RolesController.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Roles/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/Models/IdentityRole.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Users/UserList.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Roles/Edit.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Roles/Create.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Users/Create.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/Hospital/ViewModels/CreateRoleViewModel.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Administration/CreateRole.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/Controllers/AdministrationController.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Administration/ListRoles.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/Interfaces/IDoctorRepository.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Controllers/DoctorController.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Controllers/DescriptionController.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/ViewModels/HomeDetailsViewModel.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Home/Details.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Models/Categ.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Models/Doctor.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Models/DoctorRepository.cs" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Hospital/Views/Home/Create.cshtml" />
       </list>
     </option>
   </component>
@@ -154,7 +163,8 @@
       <workItem from="1607472036911" duration="3591000" />
       <workItem from="1607498756553" duration="5438000" />
       <workItem from="1607504868438" duration="502000" />
-      <workItem from="1607506330363" duration="13165000" />
+      <workItem from="1607506330363" duration="41021000" />
+      <workItem from="1608065992058" duration="7770000" />
     </task>
     <servers />
   </component>
@@ -171,22 +181,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607504451098" />
-    <state width="1493" height="71" key="GridCell.Tab.0.bottom" timestamp="1607556942987">
+    <state width="1493" height="110" key="GridCell.Tab.0.bottom" timestamp="1608299379248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="71" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607556942987" />
-    <state width="1493" height="71" key="GridCell.Tab.0.center" timestamp="1607556942987">
+    <state width="1493" height="110" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1608299379248" />
+    <state width="1493" height="110" key="GridCell.Tab.0.center" timestamp="1608299379248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="71" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607556942987" />
-    <state width="1493" height="71" key="GridCell.Tab.0.left" timestamp="1607556942987">
+    <state width="1493" height="110" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1608299379248" />
+    <state width="1493" height="110" key="GridCell.Tab.0.left" timestamp="1608299379248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="71" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607556942987" />
-    <state width="1493" height="71" key="GridCell.Tab.0.right" timestamp="1607556942987">
+    <state width="1493" height="110" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1608299379248" />
+    <state width="1493" height="110" key="GridCell.Tab.0.right" timestamp="1608299379248">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="71" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607556942987" />
+    <state width="1493" height="110" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1608299379248" />
     <state x="361" y="144" key="Rider.ProjectTemplateDialog.Size" timestamp="1606079090857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
