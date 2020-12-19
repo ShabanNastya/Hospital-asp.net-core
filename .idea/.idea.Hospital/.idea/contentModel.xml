@@ -43,23 +43,32 @@
           <e p="DoctorController.cs" t="Include" />
           <e p="ErrorController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
+          <e p="MedicinesController.cs" t="Include" />
+          <e p="SendMailController.cs" t="Include" />
           <e p="UsersController.cs" t="Include" />
         </e>
         <e p="Hospital.csproj" t="IncludeRecursive" />
         <e p="images" t="Include" />
         <e p="Interfaces" t="Include">
+          <e p="ICategoryMedRepository.cs" t="Include" />
           <e p="ICategoryRepository.cs" t="Include" />
           <e p="IDoctorRepository.cs" t="Include" />
+          <e p="IMedicinesRepository.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="AppDbContext.cs" t="Include" />
           <e p="Categ.cs" t="Include" />
           <e p="Category.cs" t="Include" />
+          <e p="CategoryMed.cs" t="Include" />
+          <e p="CategoryMedRepository.cs" t="Include" />
           <e p="CategoryRepository.cs" t="Include" />
           <e p="Doctor.cs" t="Include" />
           <e p="DoctorRepository.cs" t="Include" />
+          <e p="Email.cs" t="Include" />
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="IdentityRole.cs" t="Include" />
+          <e p="Medicines.cs" t="Include" />
+          <e p="MedicinesRepository.cs" t="Include" />
           <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -85,6 +94,7 @@
           <e p="EditUserViewModel.cs" t="Include" />
           <e p="HomeDetailsViewModel.cs" t="Include" />
           <e p="LoginViewModel.cs" t="Include" />
+          <e p="MedicinesViewModel.cs" t="Include" />
           <e p="RegisterViewModel.cs" t="Include" />
         </e>
         <e p="Views" t="Include">
@@ -107,6 +117,13 @@
             <e p="DoctorNotFound.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
+          </e>
+          <e p="Medicines" t="Include">
+            <e p="Details.cshtml" t="Include" />
+            <e p="Schedule.cshtml" t="Include" />
+          </e>
+          <e p="SendEmail" t="Include">
+            <e p="Sending.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">
             <e p="_Layout.cshtml" t="Include" />

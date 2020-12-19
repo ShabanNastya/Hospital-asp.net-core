@@ -7,8 +7,6 @@ namespace Hospital.Models
         public int CategoryId { get; set; }
         
         public string CategoryName { get; set; }
-        
-        //public string CategoryDescription { get; set; }
 
         public List<Doctor> Doctors { get; set; }
     }

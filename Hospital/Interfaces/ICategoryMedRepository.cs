@@ -3,9 +3,8 @@ using Hospital.Models;
 
 namespace Hospital.Interfaces
 {
-    public interface ICategoryRepository
+    public interface ICategoryMedRepository
     {
-        IEnumerable<Category> GetAllCategories { get; }
-
+        IEnumerable<CategoryMed> GetAllCategoryMeds { get; }
     }
 }

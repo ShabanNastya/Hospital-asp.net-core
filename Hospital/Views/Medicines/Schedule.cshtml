@@ -1,0 +1,24 @@
+﻿@model MedicinesViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Schedule of Medicines</h2>
+<div class="card-deck">
+    @foreach (var medicines in Model.Medicineses)
+    {
+        <div class="col-sm-4 col-lg-4 col-md-4 bg-light">
+            <div class="thumbnail">
+                <h3>@medicines.Name</h3>
+            </div>
+            <h6>Цена: @medicines.Price.ToString("c")</h6>
+            <h6>Тип: @medicines.CategoryMed.CategoryMedName</h6>
+            <p class="font-italic">Описание: @medicines.Description</p>
+            <div class="card-footer text-center">
+                <h6> <a asp-controller="Medicines" asp-action="Details" asp-route-id="@medicines.MedicinesId">@medicines.Name</a></h6>
+            </div>
+        </div>
+    }
+</div>
